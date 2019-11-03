@@ -1,0 +1,94 @@
+{
+	"type": "array",
+	"items": {
+		"type": "object",
+		"properties": {
+			"deviceId": {
+				"type": "integer"
+			},
+			"deviceName": {
+				"type": "string"
+			},
+			"distance": {
+				"type": "number"
+			},
+			"averageSpeed": {
+				"type": "number"
+			},
+			"maxSpeed": {
+				"type": "number"
+			},
+			"spentFuel": {
+				"type": "integer"
+			},
+			"startOdometer": {
+				"type": "number"
+			},
+			"endOdometer": {
+				"type": "number"
+			},
+			"startPositionId": {
+				"type": "integer"
+			},
+			"endPositionId": {
+				"type": "integer"
+			},
+			"startLat": {
+				"type": "number"
+			},
+			"startLon": {
+				"type": "number"
+			},
+			"endLat": {
+				"type": "number"
+			},
+			"endLon": {
+				"type": "number"
+			},
+			"startTime": {
+				"type": "string"
+			},
+			"startAddress": {
+				"type": ["string", "null"]
+			},
+			"endTime": {
+				"type": "string"
+			},
+			"endAddress": {
+				"type": ["string", "null"]
+			},
+			"duration": {
+				"type": "integer"
+			},
+			"driverUniqueId": {
+				"type": ["integer", "null"]
+			},
+			"driverName": {
+				"type": ["string", "null"]
+			}
+		},
+		"required": [
+			"deviceId",
+			"deviceName",
+			"distance",
+			"averageSpeed",
+			"maxSpeed",
+			"spentFuel",
+			"startOdometer",
+			"endOdometer",
+			"startPositionId",
+			"endPositionId",
+			"startLat",
+			"startLon",
+			"endLat",
+			"endLon",
+			"startTime",
+			"startAddress",
+			"endTime",
+			"endAddress",
+			"duration",
+			"driverUniqueId",
+			"driverName"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"fleetport": {
+		"host": "",
+		"port": ,
+		"username": "",
+		"password": "",
+		"deviceID": 1,
+		"SSL": true,
+		"login": {
+			"username": "",
+			"password": ""
+		}
+	}
+}
